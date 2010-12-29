@@ -1,0 +1,9 @@
+[submodule "app/models"]
+	path = app/models
+	url = git@github.com:oyajikun/loctacr3_app_models.git
+[submodule "spec/models"]
+	path = spec/models
+	url = git@github.com:oyajikun/loctacr3_spec_models.git
+[submodule "spec/fixtures"]
+	path = spec/fixtures
+	url = git@github.com:oyajikun/loctacr3_spec_fixtures.git
