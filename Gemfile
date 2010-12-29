@@ -32,3 +32,6 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 # Bundle gems needed for rspec
 gem "rspec-rails"
+
+# Bundle gem needed for Devise
+gem "devise", "1.1.3"
