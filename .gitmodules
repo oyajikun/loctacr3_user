@@ -7,3 +7,9 @@
 [submodule "spec/fixtures"]
 	path = spec/fixtures
 	url = git@github.com:oyajikun/loctacr3_spec_fixtures.git
+[submodule "vendor/plugins/mobile"]
+	path = vendor/plugins/mobile
+	url = git@github.com:oyajikun/mobile.git
+[submodule "vendor/plugins/crypt"]
+	path = vendor/plugins/crypt
+	url = git@github.com:oyajikun/crypt.git
