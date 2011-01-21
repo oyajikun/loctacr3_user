@@ -6,3 +6,5 @@ tmp/**/*
 db/schema.rb
 config/*.yml
 nbproject
+db/seeds.rb
+db/seeds
