@@ -36,3 +36,5 @@ gem "rspec-rails"
 
 # Bundle gem needed for Devise
 gem "devise", "1.1.3"
+
+gem "hpricot"
