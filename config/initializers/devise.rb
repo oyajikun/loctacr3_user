@@ -46,15 +46,15 @@ Devise.setup do |config|
   config.encryptor = :bcrypt
 
   # Setup a pepper to generate the encrypted password.
-  config.pepper = "1fa4f70a4b7d7f1f25c355f4d8d233c2b7cec650f899b7340d1e7b0e81bc87032bb0988e5bc7ba291fd9dc1903ce9458217c0cbdb048a058fe8198ae98867246"
+  config.pepper = "5b0d56934770609541450c623972ee62af720cf38e82da4927a320b72478150951db9c1f83ad2f0134b8dd18b383f9ad140b0db4d2c2ae6d9f9cd4cd7545f3db"
 
   # ==> Configuration for :confirmable
   # The time you want to give your user to confirm his account. During this time
   # he will be able to access your application without confirming. Default is nil.
-  # When confirm_within is zero, the user won't be able to sign in without confirming. 
-  # You can use this to let your user access some features of your application 
-  # without confirming the account, but blocking it after a certain period 
-  # (ie 2 days). 
+  # When confirm_within is zero, the user won't be able to sign in without confirming.
+  # You can use this to let your user access some features of your application
+  # without confirming the account, but blocking it after a certain period
+  # (ie 2 days).
   # config.confirm_within = 2.days
 
   # ==> Configuration for :rememberable
@@ -113,7 +113,7 @@ Devise.setup do |config|
   # devise role declared in your routes.
   # config.default_scope = :user
 
-  # Configure sign_out behavior. 
+  # Configure sign_out behavior.
   # By default sign_out is scoped (i.e. /users/sign_out affects only :user scope).
   # In case of sign_out_all_scopes set to true any logout action will sign out all active scopes.
   # config.sign_out_all_scopes = false
