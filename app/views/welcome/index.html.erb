@@ -1,13 +1,4 @@
 <h1>Welcome#index</h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
 
-<% content_tag(:ul) do -%>
-  <% if user_signed_in? -%>
-    <%= content_tag(:li, link_to('Logout', destroy_user_session_path)) %>
-    <%= content_tag(:li, link_to('Edit account', edit_user_registration_path)) %>
-  <% else # if user_signed_in? -%>
-    <%= content_tag(:li, link_to('Login', new_user_session_path)) %>
-    <%= content_tag(:li, link_to('Sign up', new_user_registration_path)) %>
-  <% end # if user_signed_in? -%>
-<% end -%>
-
+<%= link_to('位置登録', new_location_path) %><br />
