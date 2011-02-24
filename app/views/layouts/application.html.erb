@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Loctacr3User</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
+  <head>
+    <title>Loctacr3User</title>
+    <%= stylesheet_link_tag :all %>
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+    <%= content_tag(:ul) do %>
+      <% if user_signed_in? -%>
+        <%= content_tag(:li, link_to('Logout', destroy_user_session_path)) %>
+        <%= content_tag(:li, link_to('Edit account', edit_user_registration_path)) %>
+      <% else # if user_signed_in? -%>
+        <%= content_tag(:li, link_to('Login', new_user_session_path)) %>
+        <%= content_tag(:li, link_to('Sign up', new_user_registration_path)) %>
+      <% end # if user_signed_in? -%>
+    <% end -%>
+
+  </body>
 </html>
