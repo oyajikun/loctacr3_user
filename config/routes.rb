@@ -2,7 +2,7 @@ Loctacr3User::Application.routes.draw do
   devise_for :users
 
   resources :locations, :only => [:index, :new, :show]
-  post 'locations/:encrypted_token' => 'locations#create', :as => "create_location"
+  post 'locations/:encrypted_token' => 'locations#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
