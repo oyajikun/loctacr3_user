@@ -38,3 +38,5 @@ gem "rspec-rails"
 gem "devise", "1.1.3"
 
 gem "hpricot"
+
+gem 'mongrel'
