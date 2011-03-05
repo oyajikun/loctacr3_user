@@ -8,4 +8,3 @@ config/*.yml
 nbproject
 db/seeds.rb
 db/seeds
-.gitmodules
